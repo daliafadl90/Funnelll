@@ -1,0 +1,123 @@
+ @import './base.css';
+
+ #app {
+   font-weight: normal;
+   background-color: #263238;
+   font-family: var(--bs-font-sans-serif);
+   overflow-x: auto;
+ }
+
+ a:hover {
+   font-weight: bold;
+ }
+
+ .btn-main {
+   display: block;
+   color: #fff !important;
+   background-color: #61a22e;
+   border-color: #74C633;
+   padding: 12px !important;
+   border: 1px solid #74C633;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   border-radius: 0.25rem;
+   font-size: 1rem;
+   max-width: fit-content;
+ }
+
+ .btn-main:hover {
+   background-color: #fff;
+   color: #61a22e !important;
+   text-decoration: none;
+ }
+
+ .btn-secandary {
+   color: #fff;
+   background-color: inherit;
+   border-color: #fff;
+   padding: 12px 25px;
+   margin-left: 1%;
+ }
+
+ .btn-secandary:hover {
+   background-color: #fff;
+ }
+
+ .text-green {
+   color: #74c633;
+ }
+
+ .founder-log {
+   max-height: 60px;
+   max-width: -webkit-fill-available;
+ }
+
+ .second-sec {
+   background-color: #1E272B;
+   max-width: 100%;
+   padding: 10%;
+ }
+
+ .ceo {
+   padding: 3%;
+   color: #fff;
+   position: relative;
+   overflow: hidden;
+   background: linear-gradient(261.71deg, #485a63 13.92%, #2c3c44 84.19%);
+   border-radius: 10px;
+ }
+
+ .check-circle {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 4px;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.no-underline{
+  text-decoration: none;
+}
+.no-underline:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+ /* @import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  background-color: #000;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
